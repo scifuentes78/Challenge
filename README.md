@@ -63,8 +63,8 @@
 
 
 	En windows:
-	1) Descarguelo de la pagina de postgresql
-    	2) Ejecute la instalacion estandar pero omita el lanzar Stackbuilder al final.
+	1) Descarguelo de la pagina de postgresql.
+	2) Ejecute la instalacion estandar pero omita el lanzar Stackbuilder al final.
 	3) Durante la instalacion cree un usuario challenge con permisos de superusuario.
 	4) Añada la ruta al directorio PostgreSQL bin a las rustas de variables enviromentales(the PATH environmental variable).
 	5) Abra la herramienta psql command-line
@@ -78,7 +78,7 @@
 6) Correr el comando python3.8 descargar.py para descargar las bases
 7) Correr el comando python3.8 tablas.py para generar y/o actualizar las tablas
 8) En el sql se generaran las tablas:
-          1) base_s_fuente tabla que contiene la base completa.
-          2) registros_totales contiene la cantidad de registros totales por categoria (cat_), por fuente (fte_) y por provincia_categoria (pr_cat_).
-          3) registros_cines contine las cantidades totales de pantallas, butacas y espacios incaa por provincia.
+	1) base_s_fuente tabla que contiene la base completa.
+	2) registros_totales contiene la cantidad de registros totales por categoria (cat_), por fuente (fte_) y por provincia_categoria (pr_cat_).
+	3) registros_cines contine las cantidades totales de pantallas, butacas y espacios incaa por provincia.
     
