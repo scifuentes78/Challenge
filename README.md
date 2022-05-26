@@ -77,3 +77,8 @@
 
 6) Correr el comando python3.8 descargar.py para descargar las bases
 7) Correr el comando python3.8 tablas.py para generar y/o actualizar las tablas
+8) En el sql se generaran las tablas:
+          1) base_s_fuente tabla que contiene la base completa.
+          2) registros_totales contiene la cantidad de registros totales por categoria (cat_), por fuente (fte_) y por provincia_categoria (pr_cat_).
+          3) registros_cines contine las cantidades totales de pantallas, butacas y espacios incaa por provincia.
+    
