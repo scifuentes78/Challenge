@@ -20,10 +20,17 @@
 	c:\>c:\Python35\python -m venv c:\path\to\myenv
 
 2) Copiar los archivos al directorio del entorno virtual
-	1)
+
+	1)descargar.py
+	2)tablas.py
+	3)funciones.py
+	4)requirements.txt
+	5)sql_challen.sql
+	6)settings.ini
+	7)readme.txt
 
 
-4) Activar entorno virtual
+3) Activar entorno virtual
 
 	En linux:
 	. /path/to/new/virtual/environment/bin/activate
@@ -31,12 +38,12 @@
 	En windows:
 	C:\path/to/new/virtual/environment\Scripts\activate.bat
 
-3) Instalar Dependencias
+4) Instalar Dependencias
 
 	pip3 install -r /path/to/new/virtual/environment/requirements.txt
 
 
-4) Instalar Postgre si no se lo tiene instalado (www.postgresql.org)
+5) Instalar Postgre si no se lo tiene instalado (www.postgresql.org)
        
 
 	En linux:
@@ -68,5 +75,5 @@
 	10) \q
 	11) exit
 
-5) Correr el archivo python3.8 descargar.py para descargar las bases
-6) Correr el archivo python3.8 tablas.py para generar y/o actualizar las tablas
+6) Correr el comando python3.8 descargar.py para descargar las bases
+7) Correr el comando python3.8 tablas.py para generar y/o actualizar las tablas
