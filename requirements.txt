@@ -1,0 +1,6 @@
+﻿requests
+python-decouple
+SQLAlchemy
+numpy
+pandas
+psycopg2
